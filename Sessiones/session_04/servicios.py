@@ -39,17 +39,21 @@ def estacionamiento():
 
 
 def menu():
-    print("Menu de Opciones")
-    print("1:-Lavado")
-    print("2:-Alquiler")
-    print("3:-Estacionamiento")
-    print("4.-Salir")
-    ser = int(input("Ingrese el servicio a solicitar:"))
-    if ser == 1:
-        print(lavado())
-    elif ser == 2:
-        print(alquiler())
-    elif ser == 3:
-        print(estacionamiento())
-    else:
-        print("Fin del Menu")
+    while True:
+            print("Menu de Opciones")
+            print("1:-Lavado")
+            print("2:-Alquiler")
+            print("3:-Estacionamiento")
+            print("4.-Salir")
+            ser = int(input("Ingrese el servicio a solicitar:"))
+            if ser == 1:
+                print(lavado())
+            elif ser == 2:
+                print(alquiler())
+            elif ser == 3:
+                print(estacionamiento())
+            else:
+                print("Fin del Menu")
+            respta = input("Desea Continuar:<s/n>")
+            if respta == "N":
+                break
