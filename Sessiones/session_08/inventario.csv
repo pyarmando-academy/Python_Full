@@ -1,0 +1,6 @@
+codigo,producto,stock,suspendido
+A100,Televsor,100,NO
+A200,Laptop,34,NO
+A300,PC,23,SI
+A400,Impresora,18,SI
+A500,Teclado,12,NO
